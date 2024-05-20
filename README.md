@@ -1,4 +1,3 @@
-[![Platform][1]][2] [![GitHub license][3]][4]  [![GitHub license][5]][6] 
 
 # :CatFacts
 - **基于MVVM模式集成谷歌官方推荐的JetPack组件库：LiveData、ViewModel、Lifecycle、Navigation组件**
@@ -6,11 +5,11 @@
 - **加入Retrofit网络请求,协程，帮你简化各种操作，让你快速请求网络**  
  
 #### 效果图展示 
-![项目效果图](https://github.com/feiwenchen/CatDemo/app/releases/Screenshot_1.png)
+![项目效果图](https://github.com/feiwenchen/CatDemo/tree/main/app/release/Screenshot_1.png)
  
 #### APK下载：
 
-- [Github下载](https://github.com/feiwenchen/CatDemo/app/releases/app-release-unsigned.apk)
+- [Github下载](https://github.com/feiwenchen/CatDemo/tree/main/app/release/app-release-unsigned.apk)
 
 
 ## 1.继承基类
