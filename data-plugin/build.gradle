@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+
+}
+
+android {
+//    namespace 'com.example.catfacts'
+    compileSdk buildsdk.versions.compilesdk.get().toInteger()
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    viewBinding{
+        enabled=true
+    }
+}
+
+dependencies {
+    implementation androidxLibs.bundles.androidx
+    implementation androidxLibs.gson
+    implementation androidxLibs.retrofit
+
+    testImplementation 'junit:junit:4.13.2'
+
+    implementation project(path: ':common-plugin')
+}
