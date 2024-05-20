@@ -4,9 +4,6 @@
 - **基于MVVM模式集成谷歌官方推荐的JetPack组件库：LiveData、ViewModel、Lifecycle、Navigation组件**
 - **使用kotlin语言，添加大量拓展函数，简化代码**
 - **加入Retrofit网络请求,协程，帮你简化各种操作，让你快速请求网络**  
-
-## 演示Demo
- 已用该库重构了我之前的玩安卓项目，利用Navigation组件以单Activity+Fragment架构编写，优化了很多代码，对比之前的mvp项目，开发效率与舒适度要提高了不少，想看之前MVP的项目可以去 [https://github.com/hegaojian/WanAndroid](https://github.com/hegaojian/WanAndroid) 
  
 #### 效果图展示 
 ![项目效果图](https://github.com/feiwenchen/CatDemo/app/releases/Screenshot_1.png)
