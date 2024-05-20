@@ -5,7 +5,8 @@
 - **加入Retrofit网络请求,协程，帮你简化各种操作，让你快速请求网络**  
  
 #### 效果图展示 
-![项目效果图](https://github.com/feiwenchen/CatDemo/tree/main/app/release/Screenshot_1.png)
+![项目效果图1](https://github.com/feiwenchen/CatDemo/tree/main/app/release/Screenshot_1.png)
+![项目效果图2](https://github.com/feiwenchen/CatDemo/tree/main/app/release/Screenshot_2.png)
  
 #### APK下载：
 
